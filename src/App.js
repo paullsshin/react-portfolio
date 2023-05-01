@@ -8,7 +8,7 @@ import Home from './components/pages/Home'
 import Portfolio from './components/pages/Portfolio'
 import Contact from './components/pages/Contact'
 import Resume from './components/pages/Resume'
-// not sure whats going on
+
 
 function App() {
   let Component
@@ -36,8 +36,6 @@ function App() {
       <Nav />
       <div className="container">
       {Component}
-      {/* <About /> */}
-      {/* <Contact /> */}
       </div>
       <footer className="bottom">
       <Footer />
